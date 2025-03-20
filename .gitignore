@@ -1,0 +1,7 @@
+node_modules/
+
+!media/
+!package-lock.json
+!package.json
+!public/
+!server.js
