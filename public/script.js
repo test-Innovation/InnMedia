@@ -7,7 +7,7 @@ let isVideoPlaying=true;
 
 async function fetchMedia(type){
     try{
-        const response=await fetch(`http://localhost:3000/media/${type}`);
+        const response=await fetch(`https://innmedia.onrender.com/media/${type}`);
         const files=await response.json();
         return Array.isArray(files)?files:[];
     }catch(error){
